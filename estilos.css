@@ -26,6 +26,8 @@ body{
 
 .cont{
     background-color: #797878;
+    border: #000;
+    box-shadow: inset 2px 2px 2px rgba(104, 103, 103, 0.7), inset -4px -4px 6px rgba(0,0,0,.5), inset 4px 4px 15px rgba(0,0,0,.5);
 }
 
 nav{
