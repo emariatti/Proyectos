@@ -82,9 +82,9 @@ nav{
 
 .formulario{
     background-color: rgba(0, 0, 0, .5);
-    width: 400px;
+    width: 350px;
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, 50%);
     -webkit-transform: translate(-50%, 50%);
@@ -117,5 +117,30 @@ header span{
 .contacto label, .contacto input, .contacto textarea{
     display: block;
     width: 100%;
-    margin-bottom: 5px;
+}
+
+.contacto label{
+    font-weight: 700;
+}
+
+.contact input:not([type='submit']), .contact textarea{
+    border: none;
+    border-bottom: 2px solid #40CFFF;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+    color: #333;
+}
+
+.contact textarea{
+    min-height: 100px;    
+}
+
+input[type='submit']{
+    padding: 10px;
+    border: none;
+    background-color: #40CFFF;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
 }
