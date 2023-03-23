@@ -7,6 +7,8 @@
 body{
     background-image: url(fondo.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .degr{
@@ -31,6 +33,7 @@ nav{
     margin: auto;
     background-color: #333;
     font-size: 35px;
+    box-shadow: 5px 14px 30px; 
 }
 
 .menu-horizontal{
@@ -75,4 +78,44 @@ nav{
     color: #fff;
     padding: 15px 15px 15px 20px;
     text-decoration: none;
+}
+
+.formulario{
+    background-color: rgba(0, 0, 0, .5);
+    width: 400px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    -webkit-transform: translate(-50%, 50%);
+    -moz-transform: translate(-50%, 50%);
+    -ms-transform: translate(-50%, 50%);
+    -o-transform: translate(-50%, 50%);
+    box-shadow: 5px 14px 30px; 
+}
+
+header{
+    width: 100%;
+    background-color: #40CFFF;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+}
+
+header span{
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.contacto{
+    padding: .8rem;
+    overflow: hidden;
+    color: #fff
+}
+
+.contacto label, .contacto input, .contacto textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
 }
