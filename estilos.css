@@ -61,6 +61,7 @@ nav{
     width: 200px;
     background-color: rgba(0, 0, 0, .5);
     font-size: 20px;
+    z-index: 1;
 }
 
 .menu-horizontal li:hover .menu-vertical{
@@ -84,7 +85,7 @@ nav{
     background-color: rgba(0, 0, 0, .5);
     width: 350px;
     position: absolute;
-    top: 25%;
+    top:0cm;
     left: 50%;
     transform: translate(-50%, 50%);
     -webkit-transform: translate(-50%, 50%);
