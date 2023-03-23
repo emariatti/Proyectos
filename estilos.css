@@ -84,10 +84,10 @@ nav{
 }
 
 .formulario{
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .8);
     width: 350px;
     position: absolute;
-    top:0cm;
+    top:-10px;
     left: 50%;
     transform: translate(-50%, 50%);
     -webkit-transform: translate(-50%, 50%);
