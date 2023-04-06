@@ -41,16 +41,29 @@
         </header>
         <form action="" class="contacto">
             <label for="nombre">Nombre:</label>
-            <input type="text" name="Nombre" id="nombre">
+            <input type="text" name="Nombre" id="nombre" placeholder="Nombre y apellido">
+
+            <label for="edad">Edad</label>
+            <input type="date" name="edad" id="edad">
 
             <label for="correo">Correo:</label>
-            <input type="correo" name="correo" id="correo">
+            <input type="correo" name="correo" id="correo" placeholder="nombre@ejemplo.com">
 
             <label for="celular">Celular:</label>
             <input type="celular" name="celular" id="celular">
+            <br>
+
+            <select name="fecha" selected>
+                <option value="pregunta" selected>¿En que fecha vas a viajar?</option>
+                <option value="verano">Verano</option>
+                <option value="otoño">Otoño</option>
+                <option value="invierno">Invierno</option>
+                <option value="primavera">Primavera</option>
+            </select>    
 
             <label for="mensaje">Mensaje:</label>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="¿Dudas?¿Sugerencias?"></textarea>
+
             <input type="submit" value="ENVIAR">
 
         </form>

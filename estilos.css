@@ -53,7 +53,7 @@ nav{
 }
 
 .menu-horizontal>li:hover{
-    background-color: #40CFFF;
+    background-color: #40cfff;
     box-shadow: 0px 0px 50px #40CFFF;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -102,6 +102,10 @@ nav{
     -ms-transform: translate(-50%, 50%);
     -o-transform: translate(-50%, 50%);
     box-shadow: 5px 14px 30px; 
+}
+
+select{
+    width:100%;
 }
 
 header{
